@@ -1,0 +1,22 @@
+{
+  "name": "library-all",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "library1": "file:../dist/library1",
+    "library2": "file:../dist/library2",
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com/ "
+},
+"repository": {
+  "type": "git",
+  "url": "https://github.com/mahesh-predigle/wrapper-lib-poc.git"
+}
+}
